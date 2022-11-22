@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    color: hsl(215, 51%, 70%);
+    min-width: 375px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.nft-card-component{
+    background-color: hsl(216, 50%, 16%);   
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 15px;
+    padding-top: 25px;
+}
+
+.top-photo{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    position: relative;
+}
+
+#top-photo{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.eye-icon{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 255, 255, 0.381);
+    opacity: 0;
+}
+
+.eye-icon:hover{
+    opacity: 100;
+    cursor: pointer;
+}
+
+#eye-icon{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.card-body{
+    padding: 25px;
+}
+.descript > h1{
+    color: hsl(0, 0%, 100%);
+    font-size: 22px;
+    padding-bottom: 15px;
+}
+.descript > h1:hover{
+    color: cyan;
+    cursor: pointer;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0px 15px 0px;
+    font-size: 15px;
+}
+ 
+.eth,
+.time{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+#eth{
+    color: hsl(178, 100%, 50%);
+}
+
+.avatar{
+    border-top: 1px solid  hsl(214, 23%, 25%);
+    padding-top: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.avatar > img{
+    width: 34px;
+    border: 2px solid white;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+#Jules-Wyvern{
+    color: white;
+}
+
+#Jules-Wyvern:hover{
+    color: cyan;
+    cursor: pointer;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}

@@ -1,33 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
   <title>Frontend Mentor | NFT preview card component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
+
 <body>
+  <main>
+    <div class="nft-card-component">
+      <div class="top-photo">
+          <img id="top-photo" src="./images/image-equilibrium.jpg" aria-hidden="true">
+          <div class="eye-icon">
+            <img id="eye-icon" src="./images/icon-view.svg" aria-hidden="true">
+          </div>
+      </div>
+      <div class="card-body">
+        <div class="descript">
+          <h1>Equilibrium #3429</h1>
+          <p>Our Equilibrium collection promotes balance and calm.</p>
+        </div>
+        <div class="icons">
+          <div class="eth">
+            <img src="./images/icon-ethereum.svg" aria-hidden="true">
+            <span id="eth">&nbsp&nbsp0.041 ETH</span>
+          </div>
+          <div class="time">
+            <img src="./images/icon-clock.svg" aria-hidden="true">
+            <span id="time">&nbsp3 days left</span>
+          </div>
+        </div>
+        <div class="avatar">
+          <img src="./images/image-avatar.png" aria-hidden="true">
+          <span id="avatar">Creation of <span id="Jules-Wyvern">Jules Wyvern</span></span>
+        </div>
+      </div>
+    </div>
+  </main>
 
-  Equilibrium #3429
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+    </div>
+  </footer>
 
-  Our Equilibrium collection promotes balance and calm.
-
-  0.041 ETH
-  3 days left
-  
-  Creation of Jules Wyvern
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
 </body>
 </html>
